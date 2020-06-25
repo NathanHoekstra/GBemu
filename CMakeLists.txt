@@ -3,10 +3,10 @@ project(GBemu)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(dependencies/EasyGL)
+add_subdirectory(lib/EasyGL)
 
 add_executable(GBemu main.cpp)
 
 target_link_libraries(GBemu EasyGL)
 
-include_directories(${CMAKE_SOURCE_DIR}/dependencies/EasyGL/include)
+include_directories(${CMAKE_SOURCE_DIR}/lib/EasyGL/include)

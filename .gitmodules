@@ -1,4 +1,4 @@
-[submodule "dependencies/EasyGL"]
-	path = dependencies/EasyGL
+[submodule "lib/EasyGL"]
+	path = lib/EasyGL
 	url = https://git.nathanhoekstra.nl/nathan/EasyGL.git
 	branch = master
