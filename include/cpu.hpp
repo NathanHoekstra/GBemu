@@ -63,7 +63,7 @@ namespace GBemu {
         void irq();
         void nmi();
 
-        uint8_t  opcode = 0x00;
+        uint8_t opcode = 0x00;
         uint8_t cycles = 0x00;
 
     private:
