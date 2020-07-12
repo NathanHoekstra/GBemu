@@ -9,7 +9,7 @@ GBemu::Cpu::Cpu() {
     using c = Cpu;
     // TODO: populate lookup table
     lookup_table = {
-            { "NOP", &c::LD, &c::IMM, 12 }, { "LD", &c::LD,  }
+            { "NOP", &c::LD, &c::IMP, 4 }, { "LD", &c::LD,  &c::IMX, 12 },
     };
 }
 
