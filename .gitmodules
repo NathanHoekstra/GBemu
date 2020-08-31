@@ -1,4 +1,4 @@
 [submodule "lib/EasyGL"]
 	path = lib/EasyGL
-	url = https://git.nathanhoekstra.nl/nathan/EasyGL.git
+	url = https://github.com/NathanHoekstra/EasyGL.git
 	branch = master
